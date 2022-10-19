@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+  background: rgb(235,235,170);
+  background: radial-gradient(circle, rgba(235,235,170,1) 0%, 
+  rgba(253,180,111,1) 15%, rgba(255,172,166,1) 25%,
+  rgba(170,187,135,1) 70%);
+  position: absolute;
+  width: 1800px;
+  height: 1024px;
+  color: white;
+}
+header h1 {
+  font-family: 'FreightBig Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin-top: 350px;
+}
+.contents {
+  font-family: 'Nagita';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;  
+}
