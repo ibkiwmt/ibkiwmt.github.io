@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+  background: rgba(170,187,135,1);
+  position: absolute;
+  width: 1800px;
+  height: 1024px;
+  color: white;
+}
