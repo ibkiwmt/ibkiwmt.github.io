@@ -2,14 +2,12 @@
     box-sizing: border-box;
 }
 
-html, body {
+body {
   background: rgb(235,235,170);
   background: radial-gradient(circle, rgba(235,235,170,1) 0%, 
   rgba(253,180,111,1) 15%, rgba(255,172,166,1) 25%,
   rgba(170,187,135,1) 70%);
-  position: absolute;
-  width: 1800px;
-  height: 1024px;
+  height: 100vh;
   color: white;
 }
 header h1 {
